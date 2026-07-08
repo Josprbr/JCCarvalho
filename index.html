@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanças - Associação de Corredores de Rua</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <div class="user-info">
+            <div class="avatar"><i class="fa-solid fa-person-running"></i></div>
+            <div>
+                <p class="welcome">Olá, Coordenador</p>
+                <h1 class="club-name">Pace & Asfalto AC</h1>
+            </div>
+        </div>
+        <button class="notification-btn" aria-label="Notificações">
+            <i class="fa-regular fa-bell"></i>
+            <span class="badge"></span>
+        </button>
+    </header>
+
+    <section class="balance-card">
+        <p class="balance-label">Caixa Geral da Associação</p>
+        <h2 class="balance-value">R$ 18.420,00</h2>
+        <div class="balance-details">
+            <div class="detail-item income">
+                <i class="fa-solid fa-arrow-down-long"></i>
+                <div>
+                    <span>Inscrições e Mensalidades</span>
+                    <strong>+ R$ 9.150,00</strong>
+                </div>
+            </div>
+            <div class="detail-item expense">
+                <i class="fa-solid fa-arrow-up-long"></i>
+                <div>
+                    <span>Custos e Logística</span>
+                    <strong>- R$ 4.280,00</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quick-actions">
+        <h3>Gestão de Corrida</h3>
+        <div class="actions-grid">
+            <button class="action-btn">
+                <div class="icon-wrapper income-bg"><i class="fa-solid fa-ticket"></i></div>
+                <span>Inscrições Provas</span>
+            </button>
+            <button class="action-btn">
+                <div class="icon-wrapper expense-bg"><i class="fa-solid fa-shirt"></i></div>
+                <span>Kits / Uniformes</span>
+            </button>
+            <button class="action-btn">
+                <div class="icon-wrapper member-bg"><i class="fa-solid fa-id-card-clip"></i></div>
+                <span>Mensalidades</span>
+            </button>
+            <button class="action-btn">
+                <div class="icon-wrapper report-bg"><i class="fa-solid fa-trophy"></i></div>
+                <span>Treinos / Eventos</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="upcoming-bills">
+        <div class="section-header">
+            <h3>Compromissos Próximos</h3>
+            <a href="#" class="see-all">Ver todos</a>
+        </div>
+        <div class="bill-card alert">
+            <div class="bill-info">
+                <i class="fa-solid fa-truck-fast bill-icon"></i>
+                <div>
+                    <h4>Logística de Hidratação (Treinão)</h4>
+                    <p>Vence em 2 dias</p>
+                </div>
+            </div>
+            <span class="bill-amount">- R$ 620,00</span>
+        </div>
+        <div class="bill-card">
+            <div class="bill-info">
+                <i class="fa-solid fa-map-location-dot bill-icon"></i>
+                <div>
+                    <h4>Taxa de Permit (Meia Maratona)</h4>
+                    <p>Vence in 6 dias</p>
+                </div>
+            </div>
+            <span class="bill-amount">- R$ 1.200,00</span>
+        </div>
+    </section>
+
+    <section class="recent-transactions">
+        <div class="section-header">
+            <h3>Últimas Atividades</h3>
+            <a href="#" class="see-all">Ver histórico</a>
+        </div>
+        <div class="transaction-list">
+            <div class="transaction-item">
+                <div class="t-info">
+                    <div class="t-icon income-light"><i class="fa-solid fa-users"></i></div>
+                    <div>
+                        <h4>Mensalidades (Lote Atletas Ativos)</h4>
+                        <p>Hoje, 08:15</p>
+                    </div>
+                </div>
+                <span class="t-amount positive">+ R$ 3.400,00</span>
+            </div>
+            <div class="transaction-item">
+                <div class="t-info">
+                    <div class="t-icon expense-light"><i class="fa-solid fa-medal"></i></div>
+                    <div>
+                        <h4>Sinal p/ Fabricação das Medalhas</h4>
+                        <p>Ontem, 14:30</p>
+                    </div>
+                </div>
+                <span class="t-amount negative">- R$ 1.850,00</span>
+            </div>
+            <div class="transaction-item">
+                <div class="t-info">
+                    <div class="t-icon income-light"><i class="fa-solid fa-handshake"></i></div>
+                    <div>
+                        <h4>Patrocínio - Loja de Tênis Parceira</h4>
+                        <p>06 Jul, 11:00</p>
+                    </div>
+                </div>
+                <span class="t-amount positive">+ R$ 4.500,00</span>
+            </div>
+        </div>
+    </section>
+
+    <nav class="bottom-nav">
+        <a href="#" class="nav-item active">
+            <i class="fa-solid fa-gauge-high"></i>
+            <span>Painel</span>
+        </a>
+        <a href="#" class="nav-item">
+            <i class="fa-solid fa-route"></i>
+            <span>Rotas / Treinos</span>
+        </a>
+        <a href="#" class="nav-item central-add" aria-label="Lançar transação rápida">
+            <div class="add-circle"><i class="fa-solid fa-stopwatch"></i></div>
+        </a>
+        <a href="#" class="nav-item">
+            <i class="fa-solid fa-users-line"></i>
+            <span>Atletas</span>
+        </a>
+        <a href="#" class="nav-item">
+            <i class="fa-solid fa-sliders"></i>
+            <span>Ajustes</span>
+        </a>
+    </nav>
+
+</body>
+</html>
