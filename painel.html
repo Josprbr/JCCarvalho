@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle - Pace & Asfalto AC</title>
+    <link rel="stylesheet" href="painel.css">
+    <!-- Importação de Ícones Modernos (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Topo da Página -->
+    <header class="app-header">
+        <div class="back-navigation">
+            <a href="index.html" class="back-btn" aria-label="Voltar para o início">
+                <i class="fa-solid fa-chevron-left"></i>
+            </a>
+            <div>
+                <p class="subtitle">Central de Gestão</p>
+                <h1 class="page-title">Painel Geral</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- Grid de Ferramentas (16 Botões em 4 colunas) -->
+    <main class="panel-container">
+        <h3 class="grid-title">Operações e Hidratação</h3>
+        <div class="tools-grid">
+            
+            <!-- Linha 1: Finanças Essenciais -->
+            <button class="tool-btn">
+                <div class="icon-box green-dark"><i class="fa-solid fa-cash-register"></i></div>
+                <span>Caixa</span>
+            </button>
+            <button class="tool-btn">
+                <div class="icon-box green-medium"><i class="fa-solid fa-scale-balanced"></i></div>
+                <span>Balanço</span>
+            </button>
+            <button class="tool-btn">
+                <div class="icon-box green-light"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                <span>Mensalidades</span>
+            </button>
+            <button class="tool-btn">
+                <div class="icon-box orange-alert"><i class="fa-solid fa-ticket"></i></div>
+                <span>Inscrições</span>
+            </button>
+
+            <!-- Linha 2: Hidratação e Resenha (Novos!) -->
+            <button class="tool-btn">
+                <div class="icon-box green-dark"><i class="fa-solid fa-bottle-water"></i></div>
+                <span>Água</span>
+            </button>
+            <button class="tool-btn">
+                <div class="icon-box green-medium"><i class="fa-solid fa-bolt"></i></div>
+                <span>Isotônicos</span>
+            </button>
+            <button class="tool-btn">
+                <div class="icon-box green-light"><i class="fa-solid fa-beer-mug-empty"></i></div>
+                <span>Cerveja</span>
+            </button>
+            <button class="tool-btn">
+                <div class="icon-box orange-alert"><i class="fa-solid fa-shop"></i></div>
+                <span>Bar / QG</span>
+            </button>
+
+            <!-- Linha 3: Logística e Treinos -->
+            <button class="tool-btn">
+                <div class="icon-box green-dark"><i class="fa-solid fa-route"></i></div>
+                <span>Treinos</span>
+            </button>
+            <button class="tool-btn">
+                <div class="icon-box green-medium"><i class="fa-solid fa-shirt"></i></div>
+                <span>Kits & Lojas</span>
+            </button>
+            <button class="tool-btn">
+                <div class="icon-box green-light"><i class="fa-solid fa-medal"></i></div>
+                <span>Premiações</span>
+            </button>
+            <button class="tool-btn">
+                <div class="icon-box orange-alert"><i class="fa-solid fa-truck-fast"></i></div>
+                <span>Logística</span>
+            </button>
+
+            <!-- Linha 4: Relatórios e Comunicação -->
+            <button class="tool-btn">
+                <div class="icon-box green-dark"><i class="fa-solid fa-chart-line"></i></div>
+                <span>Fluxo Caixa</span>
+            </button>
+            <button class="tool-btn">
+                <div class="icon-box green-medium"><i class="fa-solid fa-bullhorn"></i></div>
+                <span>Comunicados</span>
+            </button>
+            <button class="tool-btn">
+                <div class="icon-box green-light"><i class="fa-solid fa-file-export"></i></div>
+                <span>Relatórios</span>
+            </button>
+            <button class="tool-btn">
+                <div class="icon-box orange-alert"><i class="fa-solid fa-shield-halved"></i></div>
+                <span>Seguros</span>
+            </button>
+
+        </div>
+    </main>
+
+    <!-- Barra de Navegação Inferior Fixa -->
+    <nav class="bottom-nav">
+        <a href="painel.html" class="nav-item active">
+            <i class="fa-solid fa-gauge-high"></i>
+            <span>Painel</span>
+        </a>
+        <a href="index.html" class="nav-item">
+            <i class="fa-solid fa-route"></i>
+            <span>Rotas / Treinos</span>
+        </a>
+        <a href="index.html" class="nav-item central-add" aria-label="Lançar transação rápida">
+            <div class="add-circle"><i class="fa-solid fa-stopwatch"></i></div>
+        </a>
+        <a href="index.html" class="nav-item">
+            <i class="fa-solid fa-users-line"></i>
+            <span>Atletas</span>
+        </a>
+        <a href="index.html" class="nav-item">
+            <i class="fa-solid fa-sliders"></i>
+            <span>Ajustes</span>
+        </a>
+    </nav>
+
+</body>
+</html>
